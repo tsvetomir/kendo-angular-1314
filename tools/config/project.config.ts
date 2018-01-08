@@ -126,6 +126,15 @@ export class ProjectConfig extends SeedConfig {
       }
     }]);
 
+    // Add packages (e.g. ng2-translate)
+    // const additionalPackages: ExtendPackages[] = [{
+    //   name: 'ng2-translate',
+    //   // Path to the package's bundle
+    //   path: 'node_modules/ng2-translate/bundles/ng2-translate.umd.js'
+    // }];
+    //
+    // this.addPackagesBundles(additionalPackages);
+
     /* Add proxy middleware */
     // this.PROXY_MIDDLEWARE = [
     //   require('http-proxy-middleware')('/api', { ws: false, target: 'http://localhost:3003' })
