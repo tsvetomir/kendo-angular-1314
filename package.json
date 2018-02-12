@@ -157,7 +157,7 @@
     "@angular/platform-browser-dynamic": "^5.2.3",
     "@angular/router": "^5.2.3",
     "@angular/service-worker": "^5.2.3",
-    "@progress/kendo-angular-buttons": "^2.0.0",
+    "@progress/kendo-angular-buttons": "^3.0.0",
     "@progress/kendo-angular-l10n": "^1.0.5",
     "core-js": "^2.5.3",
     "gulp-typescript": "^4.0.0",
