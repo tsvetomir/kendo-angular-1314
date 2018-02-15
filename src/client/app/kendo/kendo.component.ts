@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { sampleProducts } from './products';
 
 @Component({
   moduleId: module.id,
@@ -6,9 +7,5 @@ import { Component } from '@angular/core';
   templateUrl: 'kendo.component.html'
 })
 export class KendoComponent {
-  title = 'Hello World!';
-
-  onButtonClick() {
-    this.title = 'Hello from Kendo UI!';
-  }
+  public gridData: any[] = sampleProducts;
 }
